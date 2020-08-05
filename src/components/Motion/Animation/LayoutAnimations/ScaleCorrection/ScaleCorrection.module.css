@@ -1,0 +1,20 @@
+.parent {
+  background: #ccc;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent[data-isOpen="true"] {
+  width: 300px;
+  height: 300px;
+}
+
+.child {
+  width: 40px;
+  height: 40px;
+  background: #f107a3;
+  border-radius: 50%;
+}

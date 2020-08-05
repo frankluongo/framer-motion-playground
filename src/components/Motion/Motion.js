@@ -1,5 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
+import AnimationControls from "./AnimationControls";
+import LayoutAnimations from "./Animation/LayoutAnimations";
+import SharedLayoutAnimations from "./Animation/SharedLayoutAnimations";
 
 const simpleVariants = {
   visible: { opacity: 1 },
@@ -152,7 +155,7 @@ const Motion = () => {
       </section>
       <section className="section">
         <h4>Dynamic Variants</h4>
-        <div className="sub-sectio">
+        <div className="sub-section">
           <ul>
             {items.map((item, i) => (
               <motion.li
@@ -169,6 +172,11 @@ const Motion = () => {
         </div>
       </section>
       <hr />
+      <AnimationControls />
+      <hr />
+      <LayoutAnimations />
+      <hr />
+      <SharedLayoutAnimations />
     </>
   );
 };
