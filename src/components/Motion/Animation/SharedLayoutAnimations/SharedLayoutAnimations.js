@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { motion, AnimateSharedLayout, AnimatePresence } from "framer-motion";
 
 import styles from "./SharedLayoutAnimations.module.css";
+import LayoutId from "./LayoutId/LayoutId";
 
 const items = [0, 1, 2];
 
@@ -21,6 +22,9 @@ const SharedLayoutAnimations = () => {
             ))}
           </motion.ul>
         </AnimateSharedLayout>
+      </div>
+      <div className="sub-section">
+        <LayoutId />
       </div>
     </section>
   );

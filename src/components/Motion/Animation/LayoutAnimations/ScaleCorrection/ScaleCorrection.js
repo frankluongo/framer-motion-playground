@@ -18,7 +18,7 @@ const ScaleCorrection = () => {
         <p>With correction</p>
         <motion.div
           layout
-          data-isOpen={isOpen}
+          data-isopen={isOpen}
           initial={{ borderRadius: 50 }}
           className={styles.parent}
           onClick={() => setIsOpen(!isOpen)}
@@ -30,7 +30,7 @@ const ScaleCorrection = () => {
         <p>Without correction</p>
         <motion.div
           layout
-          data-isOpen={isOpen2}
+          data-isopen={isOpen2}
           initial={{ borderRadius: 50 }}
           className={styles.parent}
           onClick={() => setIsOpen2(!isOpen2)}

@@ -7,7 +7,7 @@
   align-items: center;
 }
 
-.parent[data-isOpen="true"] {
+.parent[data-isopen="true"] {
   width: 300px;
   height: 300px;
 }

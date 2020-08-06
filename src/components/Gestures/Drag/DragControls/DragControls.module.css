@@ -1,0 +1,10 @@
+.controller {
+  margin-bottom: 10px;
+}
+
+.element {
+  width: 100px;
+  height: 100px;
+
+  background-color: red;
+}
